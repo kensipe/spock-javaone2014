@@ -1,5 +1,4 @@
 import com.example.Fast
-import com.example.FastAndSlowSpec
 import com.example.Slow
 
 

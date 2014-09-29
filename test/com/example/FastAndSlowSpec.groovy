@@ -4,7 +4,7 @@ import com.publisher.Publisher
 import com.publisher.Subscriber
 import spock.lang.Specification
 
-class FastAndSlowSpec extends Specification {
+class FastAndSlo1wSpec extends Specification {
 
     @Fast
     // feature methods
