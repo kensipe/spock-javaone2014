@@ -1,4 +1,4 @@
-# Spock Testing Workshop
+# Spock JavaOne 2014 Code Samples
 ## purpose
 This is a series of comparisons of junit, groovy test cases, and spock presented by Ken Sipe
 
