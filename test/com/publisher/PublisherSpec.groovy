@@ -114,8 +114,8 @@ class PublisherSpec extends Specification {
         when:
         publisher.fire("event")
 
-//        then:
-//        1 * subscriber1.receive("event") >> { throw new Exception() }
+        then:
+        1 * subscriber1.receive("event") >> { throw new Exception() }
 
         then:
         1 * subscriber2.receive("event")

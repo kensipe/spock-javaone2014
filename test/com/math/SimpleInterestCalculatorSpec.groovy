@@ -25,7 +25,7 @@ class SimpleInterestCalculatorSpec extends Specification {
         1000.0 == calc.calculate(10000, 2)
     }
 
-    def "showing off vars in calc"() {
+    def "showing off #interest in calc"() {
         given:
         def calc = new SimpleInterestCalculator(rate: 0.05)
 
@@ -38,7 +38,6 @@ class SimpleInterestCalculatorSpec extends Specification {
         year = 2
     }
 
-    @Unroll("int: #interest amt: #amt year: #year")
     def "showing off vars list in calc"() {
         def calc = new SimpleInterestCalculator(rate: 0.05)
 
